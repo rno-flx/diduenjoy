@@ -12,7 +12,6 @@ def main():
         print("Usage: ./diduenjoy <file>")
         sys.exit(FAILURE)
     data = parseFile(sys.argv[1])
-    print(data)
     # addIntoDatabase(data)
     sys.exit(SUCCESS)
 
